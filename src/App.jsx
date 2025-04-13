@@ -1,19 +1,12 @@
 import React from 'react'
-
-import Proptask from './pages/Proptask'
-import Contextapi from './pages/Contextapi'
-
-
+import './App.css';
+import Login2 from './pages/Login2'
 
 const App = () => {
   return (
    <>
-      {/* <Task/>  */}
-      {/* <Parent/> */}
-      {/* <Form/> */}
-      {/* <Todolist/> */}
-      {/* <Proptask/> */}
-      <Contextapi/>
+    
+      <Login2/>
     
     </>
   )
