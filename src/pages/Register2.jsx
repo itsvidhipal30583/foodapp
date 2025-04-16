@@ -8,6 +8,7 @@ const Register2 = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
+    alert("Successfully data stored")
   
   
   const userdetail = {
@@ -17,7 +18,7 @@ const Register2 = () => {
 
   };
   localStorage.setItem('user', JSON.stringify(userdetail));
-  alert("Successfully data stored")
+  // alert("Successfully data stored")
 };
   return (
 

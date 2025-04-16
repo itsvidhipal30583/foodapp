@@ -1,7 +1,8 @@
-import React, { createContext, useContext } from 'react'
+import React, { createContext,useContext } from 'react'
 
 
 const user = createContext();
+
 const Contextapi = () => {
     const email="abc@gmail.com"
    
@@ -13,12 +14,11 @@ const Contextapi = () => {
     </div>
   )
 }
-
 const Child = () => {
     const data = useContext(user);
     return (
         <>
-            <h3>{data }</h3>
+            <h3>{data}</h3>
         </>
     )
     
